@@ -1,1 +1,51 @@
-<p>header works!</p>
+<nav id="main-navbar" class="navbar navbar-light bg-white fixed-top">
+  <!-- Container wrapper -->
+  <div class="container-fluid">
+    <!-- Toggle button -->
+    <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#sidebarMenu"
+      aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+      <i-bs name="list"></i-bs>
+    </button>
+
+    <!-- Search form -->
+    <form class="d-none d-lg-flex input-group w-auto my-auto px-5">
+      <span class="input-group-text border-0 bg-white">
+        <i-bs name="search"></i-bs>
+      </span>
+      <input autocomplete="off" type="search" class="form-control rounded border-0 bg-white" placeholder="Search" />
+    </form>
+
+    <ul class="navbar-nav ms-auto d-flex flex-row">
+      <!-- Notification dropdown -->
+      <!-- Language -->
+      <li class="nav-item dropdown">
+        <a class="nav-link me-3 dropdown-toggle hidden-arrow" href="#" id="navbarDropdown" role="button"
+          data-mdb-toggle="dropdown" aria-expanded="false">Eng
+        </a>
+      </li>
+      <!-- Message -->
+      <li class="nav-item">
+        <a class="nav-link me-3" href="#">
+          <i-bs name="chat-right-text"></i-bs>
+          <span class="bg-success badge-dot d-inline-flex my-1 p-1 rounded my-1 p-1"></span>
+        </a>
+      </li>
+      <!-- Notification -->
+      <li class="nav-item me-3">
+        <a class="nav-link" href="#">
+          <i-bs name="bell"></i-bs>
+          <span class="bg-danger badge-dot d-inline-flex my-1 p-1 rounded my-1 p-1"></span>
+        </a>
+      </li>
+
+      <!-- Profile -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle hidden-arrow d-flex align-items-center" href="#" id="navbarDropdownMenuLink"
+          role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+          <img src="https://mdbootstrap.com/img/Photos/Avatars/img (31).jpg" class=" px-2" height="26" alt="" loading="lazy" />
+          <span class="">User Name</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
