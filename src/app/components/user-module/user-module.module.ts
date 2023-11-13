@@ -12,6 +12,10 @@ import { UserRegComponent } from './user-reg/user-reg.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    RecentOrderComponent,
+    UserRegComponent
   ]
 })
 export class UserModuleModule { }

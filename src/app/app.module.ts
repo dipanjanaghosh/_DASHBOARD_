@@ -7,6 +7,8 @@ import { HomeComponent } from './components/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
 import { LeftNavComponent } from './components/left-nav/left-nav.component';
 import { DataCardsComponent } from './components/data-cards/data-cards.component';
+import { UserModuleModule } from './components/user-module/user-module.module';
+import { HttpClientModule } from '@angular/common/http'
 
 @NgModule({
   declarations: [
@@ -19,6 +21,8 @@ import { DataCardsComponent } from './components/data-cards/data-cards.component
   imports: [
     BrowserModule,
     AppRoutingModule,
+    UserModuleModule,
+    HttpClientModule,
     NgxBootstrapIconsModule.pick(allIcons)
   ],
   providers: [],
