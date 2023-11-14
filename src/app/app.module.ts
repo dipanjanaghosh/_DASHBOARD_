@@ -9,6 +9,7 @@ import { LeftNavComponent } from './components/left-nav/left-nav.component';
 import { DataCardsComponent } from './components/data-cards/data-cards.component';
 import { UserModuleModule } from './components/user-module/user-module.module';
 import { HttpClientModule } from '@angular/common/http'
+import { GraphModule } from './components/graph/graph.module';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { HttpClientModule } from '@angular/common/http'
     BrowserModule,
     AppRoutingModule,
     UserModuleModule,
+    GraphModule,
     HttpClientModule,
     NgxBootstrapIconsModule.pick(allIcons)
   ],
